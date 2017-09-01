@@ -1,0 +1,17 @@
+# Dotenv
+.env
+
+# PHP
+vendor
+
+#Project specific
+var/babelnet-cache/*
+!var/babelnet-cache/.gitkeep
+var/composer-cache/*
+!var/composer-cache/.gitkeep
+var/output/
+!var/output/.gitkeep
+.test.env
+
+# Intellij
+.idea/
